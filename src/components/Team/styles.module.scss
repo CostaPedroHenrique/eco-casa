@@ -1,0 +1,65 @@
+.title {
+    width: 100vw;
+    margin: 2vh 5vw;
+}
+
+.team {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 7vw;
+}
+
+.member {
+    flex: 1;
+    min-width: 700px;
+    max-width: 700px;
+    padding: 20px;
+
+    span {
+        font-size: 15px;
+        font-weight: 600;
+        // white-space: nowrap;
+    }
+
+    > div {
+        margin-top: 10px;
+        display: flex;
+        gap: 16px;
+    }
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+@media screen and (max-width: 600px) {
+    .member {
+        min-width: 500px;
+        max-width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .member {
+        min-width: 400px;
+        max-width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .member {
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+
