@@ -1,0 +1,23 @@
+.main {
+    height: 100vh;
+    padding: 5vh;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10vw;
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding: 20px;
+}
+.contentImg {
+    flex: 3;
+    min-width: 100px;
+}
+
+.contentText {
+    flex: 7;
+    min-width: 400px;
+
+}
