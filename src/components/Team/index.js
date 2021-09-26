@@ -11,7 +11,7 @@ export default function Team() {
     return (
         <div>
             <div className={styles.title}>
-                <h1>Nosso time</h1>
+                <h1 style={{fontWeight: 700, fontSize: 32}}>Nosso time</h1>
             </div>
             <div className={styles.team}>
                 <div className={styles.member}>
